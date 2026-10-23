@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Enzo | Desenvolvedor Full Stack</title>
+    
+    <!-- CDN Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CDN Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Folha de Estilos Principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header class="cabecalho" id="cabecalho">
+        <div class="conteiner cabecalho-conteiner">
+            <a href="#inicio" class="logo">
+                <span class="logo-simbolo">&lt;/&gt;</span>
+                <span class="logo-texto">Vitor Enzo</span>
+            </a>
+
+            <!-- Botão Menu Mobile (Hambúrguer) -->
+            <button class="botao-menu-mobile" id="botao-menu-mobile" aria-label="Abrir Menu de Navegação">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- Menu de Navegação Principal -->
+            <nav class="navegacao-principal" id="navegacao-principal">
+                <ul class="lista-navegacao">
+                    <li><a href="#inicio" class="link-navegacao ativo">Início</a></li>
+                    <li><a href="#sobre" class="link-navegacao">Sobre Mim</a></li>
+                    <li><a href="#habilidades" class="link-navegacao">Habilidades & Formação</a></li>
+                    <li><a href="#projetos" class="link-navegacao">Projetos</a></li>
+                    <li><a href="#estudos" class="link-navegacao">Estudos</a></li>
+                    <li><a href="#contato" class="link-navegacao">Contato</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botão Alternador de Tema (Dark / Light Mode) -->
+            <button class="botao-tema" id="botao-tema" aria-label="Alternar Tema Claro/Escuro">
+                <i class="bi bi-moon-stars-fill icone-tema"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO HERO / APRESENTAÇÃO -->
+        <section class="secao-hero" id="inicio">
+            <div class="conteiner hero-conteiner">
+                <div class="hero-conteudo revelacao-scroll">
+                    <span class="selo-destaque">
+                        <i class="bi bi-code-slash"></i> Em constante evolução
+                    </span>
+                    <h1 class="hero-titulo">Olá, eu sou <span class="texto-gradiente">Vitor Enzo</span></h1>
+                    <h2 class="hero-subtitulo">
+                        <span id="texto-maquina-escrever"></span>
+                        <span class="cursor-maquina">|</span>
+                    </h2>
+                    <p class="hero-descricao">
+                        Transformando ideias em código funcional, elegante e acessível através das tecnologias da Web.
+                    </p>
+                    <div class="hero-acoes">
+                        <a href="curriculo.pdf" download target="_blank" class="botao botao-primario">
+                            <i class="bi bi-file-earmark-arrow-down-fill"></i> Baixar meu CV
+                        </a>
+                        <a href="#contato" class="botao botao-secundario">
+                            <i class="bi bi-chat-dots-fill"></i> Vamos Conversar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE MIM -->
+        <section class="secao secao-sobre" id="sobre">
+            <div class="conteiner">
+                <div class="cabecalho-secao revelacao-scroll">
+                    <h2 class="titulo-secao">Sobre Mim</h2>
+                    <div class="linha-decorativa"></div>
+                </div>
+                <div class="cartao-sobre revelacao-scroll">
+                    <div class="sobre-icone">
+                        <i class="bi bi-person-badge-fill"></i>
+                    </div>
+                    <div class="sobre-texto">
+                        <p>
+                            Sou estudante do 1º ano do <strong>Ensino Médio Técnico em Informática para Internet</strong> pela <strong>SESC Escola</strong>, em parceria com o <strong>SENAC</strong>. Com forte foco em programação, iniciei minha trilha de aprendizado me especializando em desenvolvimento Front-end.
+                        </p>
+                        <p>
+                            Nos próximos anos, minha formação se expandirá para o Back-end (2º ano) e desenvolvimento Mobile (3º ano), construindo uma base sólida e consistente para me tornar um Desenvolvedor Full Stack de alta performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO HABILIDADES E EDUCAÇÃO -->
+        <section class="secao secao-habilidades" id="habilidades">
+            <div class="conteiner">
+                <div class="cabecalho-secao revelacao-scroll">
+                    <h2 class="titulo-secao">Habilidades & Formação</h2>
+                    <div class="linha-decorativa"></div>
+                </div>
+
+                <div class="grade-habilidades-educacao">
+                    <!-- Hard Skills -->
+                    <div class="bloco-habilidades revelacao-scroll">
+                        <h3 class="subtitulo-bloco"><i class="bi bi-cpu-fill"></i> Hard Skills</h3>
+                        <div class="grade-tecnologias">
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-filetype-html icone-html"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-filetype-css icone-css"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-filetype-js icone-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-diagram-3-fill icone-logica"></i>
+                                <span>Lógica</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-braces icone-algoritmos"></i>
+                                <span>Algoritmos</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-git icone-git"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="cartao-tecnologia">
+                                <i class="bi bi-github icone-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Educação e Trilha do Curso -->
+                    <div class="bloco-educacao revelacao-scroll">
+                        <div class="cartao-educacao-premium">
+                            <div class="cabecalho-educacao">
+                                <span class="selo-excelencia">
+                                    <i class="bi bi-award-fill"></i> Instituição de Excelência
+                                </span>
+                                <h3 class="titulo-curso">Formação Técnica em Informática para Internet</h3>
+                                <p class="instituicao-curso">
+                                    Ensino Médio Integrado — <strong>SESC ESCOLA em parceria com o SENAC</strong>
+                                </p>
+                                <span class="previsao-formatura">
+                                    <i class="bi bi-calendar-check"></i> Formatura prevista: 2026
+                                </span>
+                            </div>
+
+                            <div class="trilha-aprendizado">
+                                <h4 class="subtitulo-trilha">Trilha de Formação Técnica:</h4>
+                                <div class="conteiner-etiquetas-trilha">
+                                    <span class="etiqueta-trilha concluida">
+                                        <i class="bi bi-check-circle-fill"></i> Front-end (1º Ano)
+                                    </span>
+                                    <span class="etiqueta-trilha em-andamento">
+                                        <i class="bi bi-hourglass-split"></i> Back-end (2º Ano)
+                                    </span>
+                                    <span class="etiqueta-trilha futura">
+                                        <i class="bi bi-circle"></i> Mobile (3º Ano)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PORTFÓLIO: PROJETOS DE DESTAQUE -->
+        <section class="secao secao-projetos" id="projetos">
+            <div class="conteiner">
+                <div class="cabecalho-secao revelacao-scroll">
+                    <h2 class="titulo-secao">Projetos de Destaque</h2>
+                    <div class="linha-decorativa"></div>
+                </div>
+
+                <div class="grade-projetos">
+                    <!-- Projeto 1 -->
+                    <article class="cartao-projeto revelacao-scroll">
+                        <div class="imagem-projeto-conteiner">
+                            <div class="placeholder-imagem-projeto">
+                                <i class="bi bi-music-note-list"></i>
+                                <span>Bússola Musical</span>
+                            </div>
+                        </div>
+                        <div class="conteudo-projeto">
+                            <h3 class="titulo-projeto">Bússola Musical</h3>
+                            <p class="descricao-projeto">
+                                Site focado na compra de instrumentos e auxílio didático para músicos iniciantes, garantindo alto nível de confiabilidade e curadoria de produtos.
+                            </p>
+                            <div class="tecnologias-projeto">
+                                <span class="badge-tecnologia">HTML5</span>
+                                <span class="badge-tecnologia">CSS3</span>
+                            </div>
+                            <div class="acoes-projeto">
+                                <a href="https://vtzada009.github.io/compasso-musical/" target="_blank" class="botao-projeto botao-deploy">
+                                    <i class="bi bi-box-arrow-up-right"></i> Ver Site
+                                </a>
+                                <a href="https://github.com/vtzada009/compasso-musical" target="_blank" class="botao-projeto botao-repositorio">
+                                    <i class="bi bi-github"></i> Repositório
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 2 -->
+                    <article class="cartao-projeto revelacao-scroll">
+                        <div class="imagem-projeto-conteiner">
+                            <div class="placeholder-imagem-projeto">
+                                <i class="bi bi-robot"></i>
+                                <span>Robô Maker</span>
+                            </div>
+                        </div>
+                        <div class="conteudo-projeto">
+                            <h3 class="titulo-projeto">Projeto Robô Maker</h3>
+                            <p class="descricao-projeto">
+                                Plataforma de e-commerce e aprendizado para aquisição segura de peças de TI com ótimo custo-benefício, contando com colaboração de professores especializados.
+                            </p>
+                            <div class="tecnologias-projeto">
+                                <span class="badge-tecnologia">HTML5</span>
+                                <span class="badge-tecnologia">CSS3</span>
+                            </div>
+                            <div class="acoes-projeto">
+                                <a href="https://vtzada009.github.io/projeto-robomaker-/" target="_blank" class="botao-projeto botao-deploy">
+                                    <i class="bi bi-box-arrow-up-right"></i> Ver Site
+                                </a>
+                                <a href="https://github.com/vtzada009/projeto-robomaker-" target="_blank" class="botao-projeto botao-repositorio">
+                                    <i class="bi bi-github"></i> Repositório
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUBSEÇÃO B: REPOSITÓRIOS DE ESTUDO -->
+        <section class="secao secao-estudos" id="estudos">
+            <div class="conteiner">
+                <div class="cabecalho-secao revelacao-scroll">
+                    <h2 class="titulo-secao">Repositórios de Estudo</h2>
+                    <p class="subtitulo-secao-texto">Acompanhe minha evolução diária, anotações e exercícios de sala de aula</p>
+                    <div class="linha-decorativa"></div>
+                </div>
+
+                <div class="grade-estudos">
+                    <a href="https://github.com/vtzada009/html" target="_blank" class="cartao-estudo revelacao-scroll">
+                        <div class="icone-estudo">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+                        <div class="info-estudo">
+                            <h3>Trilha de HTML e CSS</h3>
+                            <p>Exercícios práticos, estruturação semântica e estilizações responsivas.</p>
+                        </div>
+                        <i class="bi bi-arrow-right icone-seta"></i>
+                    </a>
+
+                    <a href="https://github.com/vtzada009/JavaScript" target="_blank" class="cartao-estudo revelacao-scroll">
+                        <div class="icone-estudo">
+                            <i class="bi bi-filetype-js"></i>
+                        </div>
+                        <div class="info-estudo">
+                            <h3>Trilha de JavaScript Vanilla</h3>
+                            <p>Manipulação de DOM, funções, eventos e algoritmos com JS puro.</p>
+                        </div>
+                        <i class="bi bi-arrow-right icone-seta"></i>
+                    </a>
+
+                    <a href="https://github.com/vtzada009/Algoritmos" target="_blank" class="cartao-estudo revelacao-scroll">
+                        <div class="icone-estudo">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <div class="info-estudo">
+                            <h3>Lógica de Programação & Algoritmos</h3>
+                            <p>Resolução de problemas estruturados utilizando Portugol e pseudo-código.</p>
+                        </div>
+                        <i class="bi bi-arrow-right icone-seta"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO E REDES SOCIAIS -->
+        <section class="secao secao-contato" id="contato">
+            <div class="conteiner">
+                <div class="cabecalho-secao revelacao-scroll">
+                    <h2 class="titulo-secao">Vamos Conversar?</h2>
+                    <p class="subtitulo-secao-texto">Escolha a plataforma de sua preferência para nos conectarmos</p>
+                    <div class="linha-decorativa"></div>
+                </div>
+
+                <div class="grade-contatos revelacao-scroll">
+                    <a href="mailto:vitorenzo987@gmail.com" target="_blank" class="cartao-contato cartao-email">
+                        <div class="icone-contato">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </div>
+                        <div class="detalhes-contato">
+                            <span class="rotulo-rede">E-mail</span>
+                            <span class="valor-rede">vitorenzo987@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/vtzada009" target="_blank" class="cartao-contato cartao-github">
+                        <div class="icone-contato">
+                            <i class="bi bi-github"></i>
+                        </div>
+                        <div class="detalhes-contato">
+                            <span class="rotulo-rede">GitHub</span>
+                            <span class="valor-rede">vtzada009</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/5565984213601" target="_blank" class="cartao-contato cartao-whatsapp">
+                        <div class="icone-contato">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                        <div class="detalhes-contato">
+                            <span class="rotulo-rede">WhatsApp</span>
+                            <span class="valor-rede">+55 (65) 98421-3601</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="conteiner conteudo-rodape">
+            <p>
+                Copyright © <span id="ano-atual"></span> | Desenvolvido com <i class="bi bi-suit-heart-fill icone-coracao"></i> por <strong>Vitor Enzo Silva Do Nascimento</strong>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante Voltar ao Topo -->
+    <button class="botao-topo" id="botao-topo" aria-label="Voltar ao Topo da Página">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <!-- Script Principal -->
+    <script src="script.js"></script>
+</body>
+</html>
